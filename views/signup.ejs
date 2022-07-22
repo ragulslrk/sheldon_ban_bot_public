@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>signup</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+    
+    <div class="container">
+
+        <form class="row g-3" action="/signup" method="post">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Username</label>
+              <input type="text" name="username" class="form-control" id="inputEmail4"
+              required>
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Pin</label>
+              <input type="password" name="pin"class="form-control" id="inputPassword4" required>
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Address</label>
+              <input type="text" name="address"class="form-control" id="inputAddress" placeholder="1234 Main St" required>
+            </div>
+            <div class="col-12">
+              <label for="inputAddress2" class="form-label">Aadhar number</label>
+              <input type="text" name="aadhar_number"class="form-control" id="inputAddress2" placeholder="Aadhar number" required>
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">Account number</label>
+              <input type="number" name="account_number" class="form-control" id="inputCity" required>
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">IFSC code</label>
+              <input type="text" name="ifsc_code" class="form-control" id="inputCity" required>
+
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Branch Name</label>
+              <input type="text" name="branch_name" class="form-control" id="inputZip" required>
+            </div>
+            <div class="col-md-6">
+                <label for="inputCity" class="form-label">Phone number</label>
+                <input type="number" name="phoneno" class="form-control" id="inputCity" required>
+              </div>
+              <div class="col-md-6">
+                <label for="inputZip" class="form-label">Account type</label>
+                <input type="text" name="type" class="form-control" id="inputZip" placeholder="Savings or Current" required>
+              </div>
+              <div class="col-md-6">
+                <label for="inputZip" class="form-label">Balance</label>
+                <input type="number" name="balance" class="form-control" id="inputZip" placeholder="Balance in ur account" required>
+              </div>
+              <div class="col-md-6">
+                <label for="inputZip" class="form-label">card number</label>
+                <input type="number" name="credit_card" class="form-control" id="inputZip" placeholder="12 digit code" required>
+              </div>
+              <div class="col-md-6">
+                <label for="inputZip" class="form-label">cibil score</label>
+                <input type="number" name="cibil_score" class="form-control" id="inputZip" placeholder="" required>
+              </div>
+              <div class="col-md-6">
+                <label for="inputZip" class="form-label">Email</label>
+                <input type="email" name="email" class="form-control" id="inputZip" placeholder="" required>
+              </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Sign up</button>
+            </div>
+          </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
